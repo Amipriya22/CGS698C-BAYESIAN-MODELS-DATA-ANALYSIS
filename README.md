@@ -111,4 +111,4 @@ All assignments for this course were completed using the R programming language.
 ## Conclusion
 
 This course has provided a robust foundation in Bayesian models and data analysis. The combination of theoretical knowledge and practical assignments has equipped me with the skills to apply Bayesian methods to real-world data analysis problems. All assignments and projects were developed and executed in R, leveraging the power of modern statistical software and packages.
-"""
+
