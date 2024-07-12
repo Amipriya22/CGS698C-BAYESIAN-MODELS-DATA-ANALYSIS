@@ -1,4 +1,4 @@
-readme_content = """
+
 # CGS698C: Bayesian Models and Data Analysis
 
 ## Course Overview
@@ -57,43 +57,43 @@ This course provides a comprehensive introduction to Bayesian models and data an
 
 All assignments for this course were completed using the R programming language. Below is a summary of the key assignments:
 
-### Assignment 1: Probability and Statistics
+### Probability and Statistics
 - Basic probability calculations
 - Descriptive statistics of datasets
 
-### Assignment 2: Bayesian Inference
+### Bayesian Inference
 - Calculating posterior distributions
 - Working with different priors
 
-### Assignment 3: Probability Distributions
+### Probability Distributions
 - Simulating data from various distributions
 - Applying distributions to real-world problems
 
-### Assignment 4: Parameter Estimation with MCMC
+### Parameter Estimation with MCMC
 - Implementing MCMC in R
 - Convergence diagnostics and interpretation
 
-### Assignment 5: Hamiltonian Monte Carlo
+### Hamiltonian Monte Carlo
 - Introduction to HMC in Stan
 - Comparing HMC with traditional MCMC
 
-### Assignment 6: Monte Carlo Integration
+### Monte Carlo Integration
 - Performing Monte Carlo integration
 - Importance sampling techniques
 
-### Assignment 7: Bayesian Regression Models with brms
+### Bayesian Regression Models with brms
 - Building and interpreting regression models using `brms`
 - Visualizing model outputs
 
-### Assignment 8: Data Visualization with ggplot2
+### Data Visualization with ggplot2
 - Creating advanced plots
 - Customizing visualizations for publication
 
-### Assignment 9: Bayesian Hierarchical Models
+### Bayesian Hierarchical Models
 - Building hierarchical models
 - Practical applications in data analysis
 
-### Assignment 10: Bayesian Hypothesis Testing
+### Bayesian Hypothesis Testing
 - Performing hypothesis tests using Bayesian methods
 - Comparing models and interpreting results
 
@@ -103,7 +103,6 @@ All assignments for this course were completed using the R programming language.
 - **brms**: Bayesian regression models using Stan
 - **rstan**: R interface to Stan
 - **ggplot2**: Data visualization
-- **coda**: Output analysis and diagnostics for MCMC
 
 ### Software
 - **RStudio**: Integrated development environment for R
@@ -113,8 +112,3 @@ All assignments for this course were completed using the R programming language.
 
 This course has provided a robust foundation in Bayesian models and data analysis. The combination of theoretical knowledge and practical assignments has equipped me with the skills to apply Bayesian methods to real-world data analysis problems. All assignments and projects were developed and executed in R, leveraging the power of modern statistical software and packages.
 """
-
-with open("README.md", "w") as file:
-    file.write(readme_content)
-
-print("README.md file created successfully!")
